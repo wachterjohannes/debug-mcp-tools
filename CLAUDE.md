@@ -23,7 +23,7 @@ debug-mcp-tools
 Each tool is a standalone class with MCP attributes:
 
 ```php
-use PhpMcp\Server\Attributes\McpTool;
+use Mcp\Capability\Attribute\McpTool;
 
 class ToolName
 {
@@ -124,7 +124,7 @@ class ToolName
    <?php
    namespace Wachterjohannes\DebugMcp\Tools;
 
-   use PhpMcp\Server\Attributes\McpTool;
+   use Mcp\Capability\Attribute\McpTool;
 
    class NewTool
    {
@@ -193,7 +193,7 @@ The server discovers tools through:
 Uses official `modelcontextprotocol/php-sdk` attributes:
 
 ```php
-use PhpMcp\Server\Attributes\McpTool;
+use Mcp\Capability\Attribute\McpTool;
 
 #[McpTool(
     name: 'tool_name',           // Required: Tool identifier

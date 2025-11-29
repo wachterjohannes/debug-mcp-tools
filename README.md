@@ -130,7 +130,7 @@ Example tool structure:
 <?php
 namespace Wachterjohannes\DebugMcp\Tools;
 
-use PhpMcp\Server\Attributes\McpTool;
+use Mcp\Capability\Attribute\McpTool;
 
 class MyNewTool
 {
